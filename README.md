@@ -40,10 +40,10 @@ The future scope for our smart helmet technology is promising and expansive. Bey
 
 ![SOLUTION](solution.png)
 
-![VOICE SMART HELMET]([http://url/to/img.png](https://github.com/ShyamDev12/Vision20/blob/main/helmet.png))
+![VOICE SMART HELMET](helmet.png)
 
-![MAP ALERTS]([http://url/to/img.png](https://github.com/ShyamDev12/Vision20/blob/main/map.png))
+![MAP ALERTS](map.png)
 
-![REWARD SYSTEM]([http://url/to/img.png](https://github.com/ShyamDev12/Vision20/blob/main/reward.png)https://github.com/ShyamDev12/Vision20/blob/main/reward.png)
+![REWARD SYSTEM](reward.png)
 
-![SOS]([http://url/to/img.png](https://github.com/ShyamDev12/Vision20/blob/main/sos.png)https://github.com/ShyamDev12/Vision20/blob/main/sos.png)
+![SOS](sos.png)
