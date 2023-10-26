@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee_inline"
+                android:text="WELCOME"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak Out!"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#7A7A7A"
+            android:layout_marginTop="20dp"/>
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rec">
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_height="360dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/card_view">
+
+                        <ImageView
+                            android:layout_width="240dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/ty"
+                            android:layout_marginTop="50dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sign Lang"
+                            android:textSize="20dp"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="30dp"/>
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="40dp"
+                            android:text="Lets begin..."
+                            android:textSize="17dp"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="30dp"/>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rp1">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_view"
+                            android:layout_marginLeft="20dp">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="90dp"
+                                android:src="@drawable/tyy"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="20dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TTS"
+                                android:textSize="19dp"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="30dp"/>
+                            <TextView
+                                android:layout_width="140dp"
+                                android:layout_height="40dp"
+                                android:text="Text to Speech"
+                                android:textSize="17dp"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="30dp"/>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ep1">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/card_view"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/tyy"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="20dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="STT"
+                                android:textSize="19dp"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="30dp"/>
+
+                            <TextView
+                                android:layout_width="140dp"
+                                android:layout_height="40dp"
+                                android:text="Speech to Text"
+                                android:textSize="17dp"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="30dp"/>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"
+                    app:cardBackgroundColor="#75D2F8"
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/one1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal">
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="LEARN"
+                            android:fontFamily="sans-serif-black"
+                            android:textSize="48dp"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF"
+                            android:layout_marginTop="@android:dimen/app_icon_size"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:fontFamily="sans-serif-medium"
+                            android:textSize="13dp"
+                            android:textColor="#fff"
+                            android:layout_marginTop="2dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
