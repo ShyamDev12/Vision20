@@ -38,7 +38,7 @@ The prototype of our smart helmet encompasses a diverse range of technologies. I
 
 The future scope for our smart helmet technology is promising and expansive. Beyond its core features, potential enhancements include AI-driven accident prediction, expanded IoT integrations for vehicle-to-vehicle communication, and augmented reality heads-up displays. Additionally, we see opportunities for broader adoption, with the potential to collaborate with regulatory bodies to make helmet usage mandatory. Moreover, our system can contribute valuable data to improve road safety policies and urban planning. The future holds exciting possibilities for further innovation and the continued evolution of our smart helmet solution to make road travel safer and more connected.
 
-![SOLUTION]([http://url/to/img.png](https://github.com/ShyamDev12/Vision20/blob/main/solution.png)https://github.com/ShyamDev12/Vision20/blob/main/solution.png)
+![plot]([http://url/to/img.png](https://github.com/ShyamDev12/Vision20/blob/main/solution.png)https://github.com/ShyamDev12/Vision20/blob/main/solution.png)
 
 ![VOICE SMART HELMET]([http://url/to/img.png](https://github.com/ShyamDev12/Vision20/blob/main/helmet.png))
 
